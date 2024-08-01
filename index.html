@@ -1334,8 +1334,57 @@
       </button>
     </div>
    -->
-  </main>
+    <div class="bibtex-wrapper">
+    <div class="bibtex-container">
+      <h2 class="title">BibTeX</h2>
+      <pre class="bibtex" style="background-color: #343a40;">
 
+  @misc{tora,
+        title={Tora: Trajectory-oriented Diffusion Transformer for Video Generation}, 
+        author={Zhenghao Zhang and Junchao Liao and Menghao Li and Long Qin and Weizhi Wang},   
+        year={2024},
+        eprint={2407.21705},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2407.21705}, 
+  }
+
+</pre>
+    </div>
+  </div>
+
+  </main>
+    
+<style>
+    .bibtex-wrapper {
+      display: flex;
+      justify-content: center; /* 确保整个容器居中 */
+      margin: 20px 0;
+    }
+
+    .bibtex {
+      background-color: #35917295;
+      /* border-left: 4px solid #ccc; */
+      /* padding: 10px; */
+      white-space: pre;
+      font-family: "Courier New", Courier, monospace;
+      text-align: left; /* 确保文本左对齐 */
+    }
+
+    .bibtex-container {
+      text-align: center; /* 确保内容整体居中 */
+    }
+
+    .bibtex-container pre {
+      margin: 0; /* 如果需要，可以移除 pre 的默认边距 */
+      display: inline-block; /* 使 <pre> 行内块显示 */
+    }
+
+    .title {
+      text-align: center;
+    }
+
+</style>
 <!-- <style>
   .hover-text {
     font
